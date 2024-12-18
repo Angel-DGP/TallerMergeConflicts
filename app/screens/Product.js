@@ -2,7 +2,10 @@ import {View, Text, StyleSheet, Button} from 'react-native'
 
 export const Product = ({navigation}) =>{
     return <View style={styles.container}> 
-        <Text>Estas en productos</Text>
+        <Text>Bienvenido a mi tienda soy Pedro Romero</Text>
+        <Text>Zapatos</Text>
+        <Text>Ropa</Text>
+        <Text>Interior</Text>
         <Button
             title='HOME'
             onPress={()=>{
@@ -16,7 +19,7 @@ export const Product = ({navigation}) =>{
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      backgroundColor: 'green',
       alignItems: 'center',
       justifyContent: 'center',
     },
